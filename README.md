@@ -6,7 +6,7 @@ Este proyecto es una aplicación web que muestra un autómata celular y genera s
 
 - Visualización: Muestra una cuadrícula de celdas que se actualiza periódicamente.
 - Sonido: Genera sonidos basados en el estado y la posición de las celdas.
-- Controles: Incluye un control de volumen y un botón de mute.
+- Controles: Incluye un control de ganancia y un botón de mute.
 
  Características
 
