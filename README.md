@@ -1,13 +1,12 @@
- Proyecto de Autómata Celular
+  Autómata Celular con Sonido
 
-Este proyecto es una aplicación web que visualiza un autómata celular utilizando Flask.
-El autómata se muestra en un entorno web con un fondo negro y tiene un comportamiento dinámico y aleatorio.
+Este proyecto es una aplicación web que muestra un autómata celular y genera sonidos basados en el estado de las celdas. La aplicación está construida con Flask para el backend y utiliza Pygame para la generación de sonido.
 
- Descripción
+ Características
 
-El autómata celular en este proyecto genera patrones de manera aleatoria. 
-Las celdas cambian de estado en cada iteración, creando un efecto visual en constante cambio. La visualización se actualiza de manera continua sin necesidad de recargar la página. 
-El entorno está diseñado para ser minimalista con un fondo gris y el autómata centrado en la pantalla.
+- Visualización: Muestra una cuadrícula de celdas que se actualiza periódicamente.
+- Sonido: Genera sonidos basados en el estado y la posición de las celdas.
+- Controles: Incluye un control de volumen y un botón de mute.
 
  Características
 
