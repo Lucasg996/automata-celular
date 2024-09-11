@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: white; /* Asegura que el texto sea visible */
+}
+
+.container {
+    text-align: center;
+}
+
+img {
+    border: none; /* Elimina el borde */
+    background-color: transparent; /* Asegura que el fondo sea transparente */
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
