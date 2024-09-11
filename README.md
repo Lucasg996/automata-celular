@@ -26,3 +26,6 @@ Puedes instalar Flask usando pip:
 pip install Flask
 
 Y ejecutar el archivo app.py
+
+![image](https://github.com/user-attachments/assets/874f25ed-d3f2-4933-affc-bccb474b68bc)
+
