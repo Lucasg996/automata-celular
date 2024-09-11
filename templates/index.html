@@ -5,14 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autómata Celular</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-    <script src="{{ url_for('static', filename='scripts.js') }}" defer></script>
 </head>
 <body>
     <div class="container">
-        <img id="automata-image" src="/" alt="Autómata Celular">
-        <footer>
-            <p>Creado por Lucas González</p>
-        </footer>
+        <img id="automata-image" src="" alt="Autómata Celular">
+        <div class="controls">
+            <button id="mute-button">Mute</button>
+            <input type="range" id="volume-slider" min="0" max="1" step="0.01" value="0.1">
+        </div>
     </div>
+    <script src="{{ url_for('static', filename='scripts.js') }}"></script>
 </body>
 </html>
